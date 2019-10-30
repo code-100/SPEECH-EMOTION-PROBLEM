@@ -9,3 +9,4 @@
    ***** To run the script, open terminal, go to the location of the file and execute command "bash createEnv" *****
 
 *  In case task number two is inaccessible, it has been uploaded here (bluekernel). It contains no data file
+*** KAGGLE TASK LINK: https://www.kaggle.com/amarpreet1999/bluekernel 
