@@ -1,0 +1,9 @@
+conda create --name myenv
+pip install librosa
+pip install keras
+pip install wave
+pip install sklearn
+pip install tensorflow
+pip install glob
+pip install seaborn
+pip install google.colab
