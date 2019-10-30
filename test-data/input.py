@@ -33,7 +33,7 @@ loaded_model.load_weights("Emotion_Model.h5")
 opt = keras.optimizers.rmsprop(lr=0.00001, decay=1e-6)
 loaded_model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
 
-path = input(str("enter path: "))
+path = input("enter path: ")
 
 X, sample_rate = librosa.load('{}'.format(path), res_type='kaiser_fast', duration=2.5, sr=22050*2, offset=0.5)
 sample_rate = np.array(sample_rate)
