@@ -7,3 +7,5 @@ pip install tensorflow
 pip install glob
 pip install seaborn
 pip install google.colab
+pip install numpy
+pip install pandas
